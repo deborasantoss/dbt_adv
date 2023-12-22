@@ -1,7 +1,7 @@
 dbt_adv:
   outputs:
     prod:
-      account: oc94620.europe-west4.gcp
+      account: snowflake_account_
       database: dbt_dv
       password: add_pass
       role: accountadmin
