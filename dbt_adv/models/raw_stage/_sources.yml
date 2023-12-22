@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: dbt_dv
+    database: dbt_dv
+    schema: raw
+    description: Our webshop database as a source
+    tables:
+      - name: customer
+        description: The dim customers table
+      - name: customeraddress
+        description: The dim customers table
+      - name: orders
+      - name: orderitem
+      - name: product 
+      - name: category
+      - name: productcategory
+      - name: productbrand
+      - name: event
+      - name: customerpaymentprovider
+      - name: paymentprovider
